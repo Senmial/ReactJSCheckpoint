@@ -22,7 +22,8 @@ function App() {
         </Container>
       </Navbar>
     
-    <h1>Cards of Quotes</h1>
+    <h1 className='heading'>Cards of Quotes</h1>
+    <div className='cardsContainer'>
       <Card>
       <Card.Header>Quote 1</Card.Header>
       <Card.Body>
@@ -68,6 +69,7 @@ function App() {
         </blockquote>
       </Card.Body>
     </Card>
+    </div>
     </>
    
   )

@@ -1,0 +1,18 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.cardsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+.heading{
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+}
